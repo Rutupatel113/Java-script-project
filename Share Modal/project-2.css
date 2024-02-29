@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+body{
+    position: relative;
+    background-color: rgb(29, 30, 31);
+}
+.image{
+    width: 40%;
+}
+.image img{
+    border-radius: 50%;
+}
+.information p{
+    color: white;
+    font-size: 28px;
+}
+.heading h3{
+    color: white;
+    font-size: 35px;
+}
+.content{
+    padding-top: 60px;
+    width: 100%;
+    /* position: absolute; */
+    /* top: 50%; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.details{
+    background-color: rgba(43, 39, 39, 1);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(134 132 129);
+    width: 30%;
+    padding: 40px 0;
+    gap: 35px;
+}
+.buttons{
+    display: flex;
+    gap: 15px;
+    background-color: rgb(43, 39, 39);
+}
+.btn{
+    padding: 5px 10px;
+    background-color: rgb(43, 39, 39);
+    border: 1px solid rgb(134 132 129);
+    color: white;
+    font-size:20px;
+}
+.hidden_div{
+    display: flex;
+    justify-content: center;
+}
+.modal{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    /* scale: 0; */
+    /* background-color: rgba(255, 255, 255, 0.6); */
+    background-color: rgb(127, 127, 127, 0.6);
+}
+.active{
+    /* scale: 1; */
+    display: block;
+}
+.modal .xyz{
+    width: 35%;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    margin-bottom: 30px;
+   
+}
+.header h1{
+    color: white;
+}
+.header i{
+    color: white;
+    font-size: 20px;
+}
+.modal h3{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.modal .icon-container{
+    display: flex;
+    gap: 30px;
+}
+#facebook{
+    color: blue;
+    border: 1px solid blue;
+}
+#facebook:hover{
+    color: blue;
+    background-color: rgb(0 0 116);
+    border:1px solid rgb(0 0 116);
+}
+#twitter{
+    color: blue;
+    border: 1px solid blue;
+}
+#twitter:hover{
+    color: blue;
+    background-color: rgb(0 0 116);
+    border:1px solid rgb(0 0 116);
+}
+#linkdin{
+    color: blue;
+    border: 1px solid blue;
+}
+#linkdin:hover{
+    color: blue;
+    background-color: rgb(0 0 116);
+    border:1px solid rgb(0 0 116);
+}
+#instagram{
+    color: rgb(188, 35, 73);
+    border: 1px solid rgb(188, 35, 73);
+}
+#instagram:hover{
+    color: rgb(188, 35, 73);
+    background-color: #5c1818;
+    border: 1px solid #5c1818;
+}
+#whatsapp{
+    color: rgb(29, 179, 97);
+    border: 1px solid rgb(29, 179, 97);
+}
+#whatsapp:hover{
+    color: rgb(29, 179, 97);
+    background-color: green;
+    border: 1px solid green;
+}
+
+.icon{
+    font-size: 25px;
+    padding: 7px 12px;
+    /* border: 1px solid blue; */
+    border-radius: 50%;
+}
+
