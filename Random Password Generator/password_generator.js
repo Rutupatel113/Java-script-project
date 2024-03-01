@@ -26,7 +26,6 @@ setIndicator("#ccc");
 function handleSlider() {
     inputSlider.value = passwordLength;
     lengthDisplay.innerText = passwordLength;
-    //or kuch bhi karna chahiye ? - HW
     const min = inputSlider.min;
     const max = inputSlider.max;
     inputSlider.style.backgroundSize = ( (passwordLength - min)*100/(max - min)) + "% 100%"
@@ -154,7 +153,7 @@ generateBtn.addEventListener('click', () => {
         handleSlider();
     }
 
-    // let's start the jouney to find new password
+    // to find new password
     console.log("Starting the Journey");
     //remove old password
     password = "";
@@ -177,7 +176,7 @@ generateBtn.addEventListener('click', () => {
     for(let i=0; i<funcArr.length; i++) {
         password += funcArr[i]();
     }
-    console.log("COmpulsory adddition done");
+    console.log("Compulsory adddition done");
 
     //remaining adddition
     for(let i=0; i<passwordLength-funcArr.length; i++) {
